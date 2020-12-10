@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuickGenericForm'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A quick way to create Type-safe forms.'
 
   s.homepage         = 'https://github.com/frugoman/QuickGenericForm'
@@ -17,8 +17,10 @@ Pod::Spec.new do |s|
   s.author           = { 'Nicolas Frugoni' => 'nfrugoni19@gmail.com' }
   s.source           = { :git => 'https://github.com/frugoman/QuickGenericForm.git', :tag => s.version.to_s }
 
-  s.swift_versions = '5.2'
-  s.ios.deployment_target = '12.0'
+  s.swift_versions = '5'
+  s.ios.deployment_target = '11.0'
+
+  s.dependency 'PureLayout'
 
   s.source_files = 'QuickGenericForm/Classes/**/*'
 end
