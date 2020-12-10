@@ -1,6 +1,5 @@
 # QuickGenericForm
 
-[![CI Status](https://img.shields.io/travis/Nicolas Frugoni/QuickGenericForm.svg?style=flat)](https://travis-ci.org/frugoman/QuickGenericForm)
 [![Version](https://img.shields.io/cocoapods/v/QuickGenericForm.svg?style=flat)](https://cocoapods.org/pods/QuickGenericForm)
 [![License](https://img.shields.io/cocoapods/l/QuickGenericForm.svg?style=flat)](https://cocoapods.org/pods/QuickGenericForm)
 [![Platform](https://img.shields.io/cocoapods/p/QuickGenericForm.svg?style=flat)](https://cocoapods.org/pods/QuickGenericForm)
