@@ -1,0 +1,16 @@
+PODS:
+  - QuickGenericForm (0.1.0)
+
+DEPENDENCIES:
+  - QuickGenericForm (from `../`)
+
+EXTERNAL SOURCES:
+  QuickGenericForm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QuickGenericForm: 86419031915033b95e8930a110ba7dbe183eef1a
+
+PODFILE CHECKSUM: 1f8b14f4e56fc02da844f003ea8ede3d1a4d067a
+
+COCOAPODS: 1.9.3

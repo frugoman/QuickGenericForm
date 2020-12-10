@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26467867A8A792AE86A78F6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26467867A8A792AE86A78F6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QuickGenericForm_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickGenericForm_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		68953396A9A14339EFFDF2B3 /* Pods-QuickGenericForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGenericForm_Example.debug.xcconfig"; path = "Target Support Files/Pods-QuickGenericForm_Example/Pods-QuickGenericForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC38DF0CBCCA42AEB5E38F29 /* Pods_QuickGenericForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickGenericForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B110989146EC702BD744214B /* Pods-QuickGenericForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGenericForm_Example.release.xcconfig"; path = "Target Support Files/Pods-QuickGenericForm_Example/Pods-QuickGenericForm_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B969E4B2A7178265AB59C81F /* QuickGenericForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickGenericForm.podspec; path = ../QuickGenericForm.podspec; sourceTree = "<group>"; };
-		C0BDCEC9F76A235692DCCA86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B969E4B2A7178265AB59C81F /* QuickGenericForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuickGenericForm.podspec; path = ../QuickGenericForm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0BDCEC9F76A235692DCCA86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DA5C62F987C4101E9D4DB351 /* Pods-QuickGenericForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGenericForm_Tests.release.xcconfig"; path = "Target Support Files/Pods-QuickGenericForm_Tests/Pods-QuickGenericForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F101F5837A21F15F40636ADD /* Pods_QuickGenericForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickGenericForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D10E48ABC76FB7A2E1C1C1 /* Pods-QuickGenericForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickGenericForm_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QuickGenericForm_Tests/Pods-QuickGenericForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				F9D10E48ABC76FB7A2E1C1C1 /* Pods-QuickGenericForm_Tests.debug.xcconfig */,
 				DA5C62F987C4101E9D4DB351 /* Pods-QuickGenericForm_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
