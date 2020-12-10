@@ -1,15 +1,22 @@
 PODS:
-  - QuickGenericForm (0.1.0)
+  - PureLayout (3.1.6)
+  - QuickGenericForm (0.1.0):
+    - PureLayout
 
 DEPENDENCIES:
   - QuickGenericForm (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PureLayout
 
 EXTERNAL SOURCES:
   QuickGenericForm:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QuickGenericForm: 86419031915033b95e8930a110ba7dbe183eef1a
+  PureLayout: bd3c4ec3a3819ad387c99ebb72c6b129c3ed4d2d
+  QuickGenericForm: e8d3899594d0ecba80de63be9363fa5a34c7eb9d
 
 PODFILE CHECKSUM: 1f8b14f4e56fc02da844f003ea8ede3d1a4d067a
 
