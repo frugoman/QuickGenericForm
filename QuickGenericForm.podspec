@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuickGenericForm'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A quick way to create Type-safe forms.'
 
   s.homepage         = 'https://github.com/frugoman/QuickGenericForm'
