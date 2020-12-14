@@ -22,7 +22,7 @@ pod 'QuickGenericForm'
 ## Author
 
 Nicolas Frugoni, nfrugoni19@gmail.com
-asd
+
 ## License
 
 QuickGenericForm is available under the MIT license. See the LICENSE file for more info.
