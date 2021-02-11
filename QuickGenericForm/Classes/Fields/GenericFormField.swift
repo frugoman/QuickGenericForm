@@ -13,6 +13,7 @@ public protocol GenericFormField {
     var value: String? { get set }
     var placeholder: String? { get set }
     var validations: [GenericFormFieldValidationRule] { get set }
+    var changesDelegate: GenericFormFieldChangesDelegate? { get set }
     
     func becomeFirstResponder() -> Bool
     
